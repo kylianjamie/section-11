@@ -1,0 +1,448 @@
+{
+  "generated_at": "2026-10-14T13:47:38.258180",
+  "schema_version": 1,
+  "version": "3.139",
+  "script_hash": "643c6e9c8b36",
+  "scan_hours": 72,
+  "retention_days": 14,
+  "activities": [
+    {
+      "activity_id": "i197203911",
+      "date": "2026-10-11",
+      "start_datetime": "2026-10-11T14:16:35",
+      "type": "Run",
+      "name": "Haren - Menzis 4 Mijl van Groningen",
+      "interval_summary": [
+        "1x 4m40s 155bpm",
+        "2x 2m18s 180bpm",
+        "3x 4m29s 182bpm",
+        "2x 3m17s 185bpm",
+        "1x 8s 188bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "280s@155bpm97rpm",
+          "duration_secs": 280,
+          "moving_secs": 280,
+          "start_secs": 0,
+          "end_secs": 280,
+          "avg_hr": 155,
+          "max_hr": 173,
+          "min_hr": 78,
+          "avg_cadence": 97.02857,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "138s@180bpm96rpm",
+          "duration_secs": 137,
+          "moving_secs": 137,
+          "start_secs": 280,
+          "end_secs": 417,
+          "avg_hr": 174,
+          "max_hr": 177,
+          "min_hr": 172,
+          "avg_cadence": 97.81752,
+          "zone": 5
+        },
+        {
+          "type": "WORK",
+          "label": "269s@182bpm96rpm",
+          "duration_secs": 267,
+          "moving_secs": 267,
+          "start_secs": 417,
+          "end_secs": 684,
+          "avg_hr": 180,
+          "max_hr": 182,
+          "min_hr": 177,
+          "avg_cadence": 97.70412,
+          "zone": 6
+        },
+        {
+          "type": "WORK",
+          "label": "269s@182bpm96rpm",
+          "duration_secs": 270,
+          "moving_secs": 270,
+          "start_secs": 684,
+          "end_secs": 954,
+          "avg_hr": 182,
+          "max_hr": 184,
+          "min_hr": 181,
+          "avg_cadence": 96.05185,
+          "zone": 6
+        },
+        {
+          "type": "WORK",
+          "label": "269s@182bpm96rpm",
+          "duration_secs": 270,
+          "moving_secs": 270,
+          "start_secs": 954,
+          "end_secs": 1224,
+          "avg_hr": 183,
+          "max_hr": 186,
+          "min_hr": 181,
+          "avg_cadence": 94.114815,
+          "zone": 6
+        },
+        {
+          "type": "WORK",
+          "label": "197s@185bpm94rpm",
+          "duration_secs": 193,
+          "moving_secs": 193,
+          "start_secs": 1224,
+          "end_secs": 1417,
+          "avg_hr": 183,
+          "max_hr": 185,
+          "min_hr": 182,
+          "avg_cadence": 93.549225,
+          "zone": 6
+        },
+        {
+          "type": "WORK",
+          "label": "138s@180bpm96rpm",
+          "duration_secs": 139,
+          "moving_secs": 139,
+          "start_secs": 1417,
+          "end_secs": 1556,
+          "avg_hr": 185,
+          "max_hr": 187,
+          "min_hr": 183,
+          "avg_cadence": 94.05036,
+          "zone": 7
+        },
+        {
+          "type": "WORK",
+          "label": "197s@185bpm94rpm",
+          "duration_secs": 200,
+          "moving_secs": 200,
+          "start_secs": 1556,
+          "end_secs": 1756,
+          "avg_hr": 186,
+          "max_hr": 192,
+          "min_hr": 183,
+          "avg_cadence": 93.825,
+          "zone": 7
+        },
+        {
+          "type": "WORK",
+          "label": "8s@188bpm95rpm",
+          "duration_secs": 8,
+          "moving_secs": 8,
+          "start_secs": 1756,
+          "end_secs": 1764,
+          "avg_hr": 188,
+          "max_hr": 192,
+          "min_hr": 187,
+          "avg_cadence": 95.25,
+          "zone": 7
+        }
+      ],
+      "zone_basis": "hr"
+    },
+    {
+      "activity_id": "i197203938",
+      "date": "2026-10-06",
+      "start_datetime": "2026-10-06T13:04:13",
+      "type": "Run",
+      "name": "Groningen - Taper interval",
+      "interval_summary": [
+        "1x 5m49s 129bpm",
+        "1x 4m12s 144bpm",
+        "3x 2m 157bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "349s@129bpm89rpm",
+          "duration_secs": 349,
+          "moving_secs": 349,
+          "start_secs": 0,
+          "end_secs": 349,
+          "avg_hr": 129,
+          "max_hr": 149,
+          "min_hr": 79,
+          "avg_cadence": 88.84241,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "252s@144bpm90rpm",
+          "duration_secs": 252,
+          "moving_secs": 252,
+          "start_secs": 349,
+          "end_secs": 601,
+          "avg_hr": 144,
+          "max_hr": 151,
+          "min_hr": 140,
+          "avg_cadence": 90.059525,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "120s@157bpm95rpm",
+          "duration_secs": 120,
+          "moving_secs": 120,
+          "start_secs": 601,
+          "end_secs": 721,
+          "avg_hr": 159,
+          "max_hr": 166,
+          "min_hr": 145,
+          "avg_cadence": 97.291664,
+          "zone": 3
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 119,
+          "moving_secs": 119,
+          "start_secs": 721,
+          "end_secs": 840,
+          "avg_hr": 137,
+          "max_hr": 166,
+          "min_hr": 114,
+          "avg_cadence": 57.042015,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "120s@157bpm95rpm",
+          "duration_secs": 120,
+          "moving_secs": 120,
+          "start_secs": 840,
+          "end_secs": 960,
+          "avg_hr": 155,
+          "max_hr": 170,
+          "min_hr": 115,
+          "avg_cadence": 93.28333,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 120,
+          "moving_secs": 120,
+          "start_secs": 960,
+          "end_secs": 1080,
+          "avg_hr": 142,
+          "max_hr": 169,
+          "min_hr": 116,
+          "avg_cadence": 59.1,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "120s@157bpm95rpm",
+          "duration_secs": 120,
+          "moving_secs": 120,
+          "start_secs": 1080,
+          "end_secs": 1200,
+          "avg_hr": 157,
+          "max_hr": 170,
+          "min_hr": 115,
+          "avg_cadence": 94.666664,
+          "zone": 3
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "moving_secs": 1,
+          "start_secs": 1200,
+          "end_secs": 1201,
+          "avg_hr": 169,
+          "max_hr": 169,
+          "min_hr": 169,
+          "avg_cadence": 96.0,
+          "zone": 4
+        }
+      ],
+      "zone_basis": "hr"
+    },
+    {
+      "activity_id": "i197203964",
+      "date": "2026-10-04",
+      "start_datetime": "2026-10-04T11:50:39",
+      "type": "Run",
+      "name": "Diemen Hardlopen",
+      "interval_summary": [
+        "8x 6m36s 134bpm",
+        "1x 13s 144bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "396s@134bpm86rpm",
+          "duration_secs": 394,
+          "moving_secs": 394,
+          "start_secs": 0,
+          "end_secs": 394,
+          "avg_hr": 120,
+          "max_hr": 134,
+          "min_hr": 68,
+          "avg_cadence": 85.12437,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "396s@134bpm86rpm",
+          "duration_secs": 400,
+          "moving_secs": 400,
+          "start_secs": 394,
+          "end_secs": 794,
+          "avg_hr": 132,
+          "max_hr": 142,
+          "min_hr": 125,
+          "avg_cadence": 86.6475,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "396s@134bpm86rpm",
+          "duration_secs": 399,
+          "moving_secs": 399,
+          "start_secs": 794,
+          "end_secs": 1193,
+          "avg_hr": 135,
+          "max_hr": 142,
+          "min_hr": 132,
+          "avg_cadence": 85.350876,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "396s@134bpm86rpm",
+          "duration_secs": 405,
+          "moving_secs": 405,
+          "start_secs": 1193,
+          "end_secs": 1598,
+          "avg_hr": 135,
+          "max_hr": 143,
+          "min_hr": 125,
+          "avg_cadence": 86.40741,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "396s@134bpm86rpm",
+          "duration_secs": 395,
+          "moving_secs": 395,
+          "start_secs": 1598,
+          "end_secs": 1993,
+          "avg_hr": 135,
+          "max_hr": 146,
+          "min_hr": 127,
+          "avg_cadence": 86.86582,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "396s@134bpm86rpm",
+          "duration_secs": 390,
+          "moving_secs": 390,
+          "start_secs": 1993,
+          "end_secs": 2383,
+          "avg_hr": 139,
+          "max_hr": 147,
+          "min_hr": 132,
+          "avg_cadence": 86.64872,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "396s@134bpm86rpm",
+          "duration_secs": 393,
+          "moving_secs": 393,
+          "start_secs": 2383,
+          "end_secs": 2776,
+          "avg_hr": 139,
+          "max_hr": 144,
+          "min_hr": 127,
+          "avg_cadence": 85.86514,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "396s@134bpm86rpm",
+          "duration_secs": 394,
+          "moving_secs": 394,
+          "start_secs": 2776,
+          "end_secs": 3170,
+          "avg_hr": 140,
+          "max_hr": 150,
+          "min_hr": 136,
+          "avg_cadence": 85.73858,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "13s@144bpm87rpm",
+          "duration_secs": 13,
+          "moving_secs": 13,
+          "start_secs": 3170,
+          "end_secs": 3183,
+          "avg_hr": 144,
+          "max_hr": 145,
+          "min_hr": 143,
+          "avg_cadence": 87.07692,
+          "zone": 1
+        }
+      ],
+      "zone_basis": "hr"
+    }
+  ],
+  "fetch_state": {
+    "i197203911": {
+      "date": "2026-10-11",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-14T13:47:38.258180",
+        "last_attempt": "2026-10-14T13:47:38.258180",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-14T13:18:39.410+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-14T13:47:38.258180",
+        "last_attempt": "2026-10-14T13:47:38.258180",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-10-14T13:52:38.258180"
+      }
+    },
+    "i197203938": {
+      "date": "2026-10-06",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-14T13:47:38.258180",
+        "last_attempt": "2026-10-14T13:47:38.258180",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-14T13:18:41.837+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-14T13:47:38.258180",
+        "last_attempt": "2026-10-14T13:47:38.258180",
+        "status": "tombstone",
+        "reason": "retry_expired"
+      }
+    },
+    "i197203964": {
+      "date": "2026-10-04",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-14T13:47:38.258180",
+        "last_attempt": "2026-10-14T13:47:38.258180",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-14T13:18:46.095+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-14T13:47:38.258180",
+        "last_attempt": "2026-10-14T13:47:38.258180",
+        "status": "tombstone",
+        "reason": "retry_expired"
+      }
+    }
+  }
+}
