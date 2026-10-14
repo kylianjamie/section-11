@@ -22,7 +22,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-- name: Run Section 11 Sync Script
+      - name: Run Section 11 Sync Script
         env:
           INTERVALS_API_KEY: ${{ secrets.INTERVALS_API_KEY }}
           ATHLETE_ID: ${{ secrets.ATHLETE_ID }}
