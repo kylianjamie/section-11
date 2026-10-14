@@ -2,7 +2,7 @@
 
 **Template version:** 2.1.0
 
-**Dossier revision:** 1.1
+**Dossier revision:** 1.2
 
 **Last reviewed:** 2026-10-14
 
@@ -51,7 +51,7 @@
 | Sex | Male |
 | Height | 193 cm |
 | Home region | Groningen, Netherlands |
-| Primary sport | Hybrid Training: Maximizing upper body muscle mass gain while aggressively scaling running endurance and conditioning |
+| Primary sport | Concurrent Hybrid Training: Maximizing upper body muscle mass gain alongside all-round running fitness (speed on short distances + endurance base for potential half marathon / long endurance work) |
 | Secondary sports/activities | Motorcycle riding (Triumph Street Triple RS) |
 | Occupation/lifestyle context | Frontend software developer at DUO in Groningen (sit-stand desk routine) |
 
@@ -59,8 +59,8 @@
 
 | Goal | Target date | Priority | Why it matters / success definition |
 |---|---|---|---|
-| Maximize upper body muscle mass gain while driving running conditioning to peak levels (3x running/week) | Ongoing | Primary | Balance concurrent training adaptations without systemic overreaching |
-| Injury-free progression in running speed and aerobic capacity | Ongoing | Primary | Strict adherence to recovery protocols and the 48-hour post-lower-body rule |
+| Maximize upper body muscle mass gain while building all-round running conditioning | Ongoing | Primary | Concurrent adaptation: grow upper body mass while scaling short-distance speed and building a base for a future half marathon or longer endurance events |
+| Injury-free progression | Ongoing | Primary | Strict adherence to recovery protocols and the 48-hour post-lower-body rule |
 
 ## 5. Health, medication and supplements
 
@@ -88,17 +88,18 @@
 
 ## 7. Practical training context and essential equipment
 
-### Availability & Hybrid Split Constraints
-- **Gym Schedule:** 3 sessions per week utilizing Reverse Pyramid Training (RPT) with strong emphasis on upper body hypertrophy:
-  - **2x Upper Body**
-  - **1x Lower Body** (Key movements: Belt Squat / Leg Press, Hip Thrust, Leg Extension, Lying Leg Curl, Standing Calf Raise).
-- **Running Schedule:** Scaling up to **3 sessions per week** targeting maximum running condition improvement alongside upper body muscle mass goals.
+### Availability & Hybrid Split Structure
+- **Gym Schedule (3x / week):** Preferred days: **Monday, Wednesday, Friday**. Split: **2x Upper Body, 1x Lower Body** (Key lower-body movements: Belt Squat / Leg Press, Hip Thrust, Leg Extension, Lying Leg Curl, Standing Calf Raise). Specific gym session days are flexible.
+- **Running Schedule (3x / week):** 
+  - **Sunday:** Long Zone 2 endurance run (preferred baseline).
+  - **Other running sessions (2x):** Flexible placement (intervals/tempo vs. easy aerobic), with openness to double-day training sessions if structurally convenient.
+- **Key Constraint:** Strict maintenance of the 48-hour post-lower-body rule to protect neuromuscular recovery and hypertrophy.
 
 ### Essential equipment
 
 | Use | Equipment/context |
 |---|---|
-| Data & Tracking | Garmin Forerunner 265, heart rate chest strap, Intervals.icu, Hevy app |
+| Data & Tracking | Garmin Forerunner 265, heart rate chest strap, Intervals.icu |
 | Running Footwear | Brooks Adrenaline GTS (Road), Nike Pegasus Trail 3 (Off-road/Obstacle) |
 | Office/Work | IKEA MITTZON sit-stand desk |
 
