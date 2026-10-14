@@ -22,12 +22,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Run Section 11 Sync Script
+- name: Run Section 11 Sync Script
         env:
           INTERVALS_API_KEY: ${{ secrets.INTERVALS_API_KEY }}
           ATHLETE_ID: ${{ secrets.ATHLETE_ID }}
         run: |
-          python examples/sync.py --intervals-key "$INTERVALS_API_KEY" --athlete-id "$ATHLETE_ID"
+          python examples/sync.py --intervals-key "$INTERVALS_API_KEY" --athlete-id "$ATHLETE_ID" --no-git-push
 
       - name: Commit and push updated JSON data
         run: |
