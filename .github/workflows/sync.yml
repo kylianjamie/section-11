@@ -2,8 +2,8 @@ name: Auto-Sync Intervals.icu Data
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # Draait elke 30 minuten
-  workflow_dispatch: # Zorgt dat je handmatig een run kunt starten
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
 
 jobs:
   sync:
@@ -27,7 +27,7 @@ jobs:
           INTERVALS_API_KEY: ${{ secrets.INTERVALS_API_KEY }}
           ATHLETE_ID: ${{ secrets.ATHLETE_ID }}
         run: |
-          python examples/sync.py --intervals-key "$INTERVALS_API_KEY" --athlete-id "$ATHLETE_ID" --output .
+          python examples/sync.py --intervals-key "$INTERVALS_API_KEY" --athlete-id "$ATHLETE_ID"
 
       - name: Commit and push updated JSON data
         run: |
