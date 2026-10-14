@@ -1,0 +1,37 @@
+name: Auto-Sync Intervals.icu Data
+
+on:
+  schedule:
+    - cron: '*/30 * * * *' # Draait elke 30 minuten automatisch
+  workflow_dispatch: # Hierdoor kun je handmatig op "Run workflow" klikken
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run Section 11 Sync Script
+        env:
+          INTERVALS_API_KEY: ${{ secrets.INTERVALS_API_KEY }}
+          ATHLETE_ID: ${{ secrets.ATHLETE_ID }}
+        run: |
+          python sync.py
+
+      - name: Commit and push updated JSON data
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add latest.json history.json || true
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-sync intervals data" && git push)
