@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T23:33:02.438291",
+  "generated_at": "2026-10-19T00:18:56.927366",
   "schema_version": 1,
   "version": "3.139",
   "script_hash": "643c6e9c8b36",
@@ -252,137 +252,6 @@
           "min_hr": 169,
           "avg_cadence": 96.0,
           "zone": 4
-        }
-      ],
-      "zone_basis": "hr"
-    },
-    {
-      "activity_id": "i197203964",
-      "date": "2026-10-04",
-      "start_datetime": "2026-10-04T11:50:39",
-      "type": "Run",
-      "name": "Diemen Hardlopen",
-      "interval_summary": [
-        "8x 6m36s 134bpm",
-        "1x 13s 144bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "396s@134bpm86rpm",
-          "duration_secs": 394,
-          "moving_secs": 394,
-          "start_secs": 0,
-          "end_secs": 394,
-          "avg_hr": 120,
-          "max_hr": 134,
-          "min_hr": 68,
-          "avg_cadence": 85.12437,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "396s@134bpm86rpm",
-          "duration_secs": 400,
-          "moving_secs": 400,
-          "start_secs": 394,
-          "end_secs": 794,
-          "avg_hr": 132,
-          "max_hr": 142,
-          "min_hr": 125,
-          "avg_cadence": 86.6475,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "396s@134bpm86rpm",
-          "duration_secs": 399,
-          "moving_secs": 399,
-          "start_secs": 794,
-          "end_secs": 1193,
-          "avg_hr": 135,
-          "max_hr": 142,
-          "min_hr": 132,
-          "avg_cadence": 85.350876,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "396s@134bpm86rpm",
-          "duration_secs": 405,
-          "moving_secs": 405,
-          "start_secs": 1193,
-          "end_secs": 1598,
-          "avg_hr": 135,
-          "max_hr": 143,
-          "min_hr": 125,
-          "avg_cadence": 86.40741,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "396s@134bpm86rpm",
-          "duration_secs": 395,
-          "moving_secs": 395,
-          "start_secs": 1598,
-          "end_secs": 1993,
-          "avg_hr": 135,
-          "max_hr": 146,
-          "min_hr": 127,
-          "avg_cadence": 86.86582,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "396s@134bpm86rpm",
-          "duration_secs": 390,
-          "moving_secs": 390,
-          "start_secs": 1993,
-          "end_secs": 2383,
-          "avg_hr": 139,
-          "max_hr": 147,
-          "min_hr": 132,
-          "avg_cadence": 86.64872,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "396s@134bpm86rpm",
-          "duration_secs": 393,
-          "moving_secs": 393,
-          "start_secs": 2383,
-          "end_secs": 2776,
-          "avg_hr": 139,
-          "max_hr": 144,
-          "min_hr": 127,
-          "avg_cadence": 85.86514,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "396s@134bpm86rpm",
-          "duration_secs": 394,
-          "moving_secs": 394,
-          "start_secs": 2776,
-          "end_secs": 3170,
-          "avg_hr": 140,
-          "max_hr": 150,
-          "min_hr": 136,
-          "avg_cadence": 85.73858,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "13s@144bpm87rpm",
-          "duration_secs": 13,
-          "moving_secs": 13,
-          "start_secs": 3170,
-          "end_secs": 3183,
-          "avg_hr": 144,
-          "max_hr": 145,
-          "min_hr": 143,
-          "avg_cadence": 87.07692,
-          "zone": 1
         }
       ],
       "zone_basis": "hr"
@@ -746,24 +615,6 @@
         "status": "ok",
         "reason": "ok",
         "source_icu_sync_date": "2026-10-14T13:18:41.837+00:00"
-      },
-      "streams": {
-        "attempts": 1,
-        "first_seen": "2026-10-14T13:47:38.258180",
-        "last_attempt": "2026-10-14T13:47:38.258180",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
-    "i197203964": {
-      "date": "2026-10-04",
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-10-14T13:47:38.258180",
-        "last_attempt": "2026-10-14T13:47:38.258180",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-10-14T13:18:46.095+00:00"
       },
       "streams": {
         "attempts": 1,
