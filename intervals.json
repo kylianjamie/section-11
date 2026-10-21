@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T23:33:38.770845",
+  "generated_at": "2026-10-21T00:16:29.444478",
   "schema_version": 1,
   "version": "3.139",
   "script_hash": "643c6e9c8b36",
@@ -136,122 +136,6 @@
           "min_hr": 187,
           "avg_cadence": 95.25,
           "zone": 7
-        }
-      ],
-      "zone_basis": "hr"
-    },
-    {
-      "activity_id": "i197203938",
-      "date": "2026-10-06",
-      "start_datetime": "2026-10-06T13:04:13",
-      "type": "Run",
-      "name": "Groningen - Taper interval",
-      "interval_summary": [
-        "1x 5m49s 129bpm",
-        "1x 4m12s 144bpm",
-        "3x 2m 157bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "349s@129bpm89rpm",
-          "duration_secs": 349,
-          "moving_secs": 349,
-          "start_secs": 0,
-          "end_secs": 349,
-          "avg_hr": 129,
-          "max_hr": 149,
-          "min_hr": 79,
-          "avg_cadence": 88.84241,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "252s@144bpm90rpm",
-          "duration_secs": 252,
-          "moving_secs": 252,
-          "start_secs": 349,
-          "end_secs": 601,
-          "avg_hr": 144,
-          "max_hr": 151,
-          "min_hr": 140,
-          "avg_cadence": 90.059525,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "120s@157bpm95rpm",
-          "duration_secs": 120,
-          "moving_secs": 120,
-          "start_secs": 601,
-          "end_secs": 721,
-          "avg_hr": 159,
-          "max_hr": 166,
-          "min_hr": 145,
-          "avg_cadence": 97.291664,
-          "zone": 3
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 119,
-          "moving_secs": 119,
-          "start_secs": 721,
-          "end_secs": 840,
-          "avg_hr": 137,
-          "max_hr": 166,
-          "min_hr": 114,
-          "avg_cadence": 57.042015,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "120s@157bpm95rpm",
-          "duration_secs": 120,
-          "moving_secs": 120,
-          "start_secs": 840,
-          "end_secs": 960,
-          "avg_hr": 155,
-          "max_hr": 170,
-          "min_hr": 115,
-          "avg_cadence": 93.28333,
-          "zone": 2
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 120,
-          "moving_secs": 120,
-          "start_secs": 960,
-          "end_secs": 1080,
-          "avg_hr": 142,
-          "max_hr": 169,
-          "min_hr": 116,
-          "avg_cadence": 59.1,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "120s@157bpm95rpm",
-          "duration_secs": 120,
-          "moving_secs": 120,
-          "start_secs": 1080,
-          "end_secs": 1200,
-          "avg_hr": 157,
-          "max_hr": 170,
-          "min_hr": 115,
-          "avg_cadence": 94.666664,
-          "zone": 3
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "moving_secs": 1,
-          "start_secs": 1200,
-          "end_secs": 1201,
-          "avg_hr": 169,
-          "max_hr": 169,
-          "min_hr": 169,
-          "avg_cadence": 96.0,
-          "zone": 4
         }
       ],
       "zone_basis": "hr"
@@ -742,24 +626,6 @@
         "reason": "retry_expired"
       }
     },
-    "i197203938": {
-      "date": "2026-10-06",
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-10-14T13:47:38.258180",
-        "last_attempt": "2026-10-14T13:47:38.258180",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-10-14T13:18:41.837+00:00"
-      },
-      "streams": {
-        "attempts": 1,
-        "first_seen": "2026-10-14T13:47:38.258180",
-        "last_attempt": "2026-10-14T13:47:38.258180",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
     "i197681959": {
       "date": "2026-10-15",
       "intervals": {
@@ -808,12 +674,12 @@
         "source_icu_sync_date": "2026-10-20T16:24:57.372+00:00"
       },
       "streams": {
-        "attempts": 12,
+        "attempts": 13,
         "first_seen": "2026-10-20T16:38:14.108511",
-        "last_attempt": "2026-10-20T23:05:57.690583",
+        "last_attempt": "2026-10-21T00:16:29.444478",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-10-20T23:35:57.690583"
+        "next_retry_at": "2026-10-21T06:16:29.444478"
       }
     }
   }
