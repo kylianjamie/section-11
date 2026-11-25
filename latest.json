@@ -71,7 +71,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-25T22:32:37.459048",
+    "last_updated": "2026-11-25T23:04:01.953484",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.139"
@@ -115,7 +115,7 @@
       "rhr": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": 61,
+        "baseline_7d": 63,
         "delta_bpm": null
       },
       "sleep": {
@@ -232,7 +232,7 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 62,
+      "resting_hr": 67,
       "hrv": null,
       "sleep_quality": null,
       "sleep_hours": null,
@@ -269,9 +269,9 @@
     "recovery_index": null,
     "recovery_index_yesterday": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 61,
+    "rhr_baseline_7d": 63,
     "hrv_baseline_28d": 77.8,
-    "rhr_baseline_28d": 51.6,
+    "rhr_baseline_28d": 52.3,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.0,
@@ -499,10 +499,10 @@
     "p_max": null,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-25T22:32:37.458425",
+    "calculation_timestamp": "2026-11-25T23:04:01.952871",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 2,
+      "rhr_data_points": 3,
       "activities_7d": 0,
       "activities_28d": 6,
       "planned_workouts_7d": 0,
@@ -1524,7 +1524,7 @@
       "display": {
         "weight": null
       },
-      "resting_hr": null,
+      "resting_hr": 67,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
       "sleep_hours": null,
@@ -1550,7 +1550,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 2361,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1618,7 +1618,7 @@
     "total_tss": 0,
     "activities_count": 0,
     "avg_hrv": null,
-    "avg_resting_hr": 61.0
+    "avg_resting_hr": 63.0
   },
   "race_calendar": {
     "next_race": null,
